@@ -44,9 +44,7 @@ Lendo os restos de baixo para cima, temos 10001. Assim, 17 (decimal) = 10001 (bi
 
 ---
 
-## Para converter um número binário em  decimal, usamos o posicionamento das potências de 2.Cada dígito
-do binário corresponde a uma potência de 2.
-
+## Para converter um número binário em  decimal, usamos o posicionamento das potências de 2
 Exemplo: 10001 (binário)
 
   . 1× -> 2⁴ = 16 
@@ -143,9 +141,7 @@ Juntando os restos: 1E Portanto 30 = 1E
 
 ---
 
-## Para converter um número hexadecimal em decimal, usamos o posicionamento dos dígitos. Cada posição
-corresponde auma potência de 16:
-
+## Para converter um número hexadecimal em decimal, usamos o posicionamento dos dígitos. 
 	O último dígito (à direita) → 160
 
 	O próximo → 161
