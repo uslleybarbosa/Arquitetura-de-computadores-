@@ -208,7 +208,7 @@ intermediário decimal
  1. Binário → Decimal: cada dígito binário é multiplicado
 pela potência de 2 correspondente à posição.
 
- 2.Decimal → Hexadecimal: dividimos sucessivamente por 16 
+ 2. Decimal → Hexadecimal: dividimos sucessivamente por 16 
  até o quociente ser 0, anotando os restos de baixo para cima.
  Se o resto for maior que 9, usamos a tabela hexadecimal 
  (10=A, 11=B, … 15=F).
