@@ -22,10 +22,11 @@ As conversões numéricas são muito utilizadas em:
 
 - Programação de baixo nível  
 - Desenvolvimento de drivers  
-- Sistemas que se comunicam diretamente com o hardware  
+- Sistemas que se comunicam diretamente com o hardware
 
-Exemplo: para converter o número decimal 17 
-em binário, fazemos divisões 
+---
+
+## Exemplo: para converter o número decimal 17 em binário, fazemos divisões 
 sucessivas por 2:
 
  . 17 ÷ 2 = 8, resto 1
@@ -38,15 +39,13 @@ sucessivas por 2:
 
  . 1 ÷ 2 = 0, resto 1
  
-Lendo os restos de baixo para cima, temos 10001.
-Assim, 17 (decimal) =
-10001 (binário).
+ 
+Lendo os restos de baixo para cima, temos 10001. Assim, 17 (decimal) = 10001 (binário).
 
-Para converter um número binário em 
-decimal, usamos o posicionamento 
-das potências de 2.Cada dígito
-do binário corresponde a uma 
-potência de 2.
+---
+
+## Para converter um número binário em  decimal, usamos o posicionamento das potências de 2.Cada dígito
+do binário corresponde a uma potência de 2.
 
 Exemplo: 10001 (binário)
 
@@ -64,8 +63,9 @@ Somando os valores: 16 + 1 = 17
 
 10001 (binário) = 17 (decimal) 
 
-Para converter decimal em octal usamos divisões sucessivas
-por 8, anotando os restos.
+---
+
+## Para converter decimal em octal usamos divisões sucessivas por 8, anotando os restos.
 
 Exemplo: 100 (decimal)
 
@@ -75,13 +75,12 @@ Exemplo: 100 (decimal)
 
  . 1 ÷ 8 = 0, resto 1
  
-Lendo os restos de baixo para cima: 144 (octal). 
-Assim, 100 (decimal) = 144 (octal).
+Lendo os restos de baixo para cima: 144 (octal). Assim, 100 (decimal) = 144 (octal).
 
-Para converter um número em octal para decimal, 
-usamos o posicionamento das potências de 8. 
-Cada dígito do número octal corresponde a uma
-potência de 8, começando da direita com 80.
+---
+
+## Para converter um número em octal para decimal, usamos o posicionamento das potências de 8. 
+Cada dígito do número octal corresponde a uma potência de 8, começando da direita com 80.
 
 Exemplo: 144 (octal)
 
@@ -91,11 +90,11 @@ Exemplo: 144 (octal)
 
  . 4× -> 8⁰ = 4 
  
-Somando os valores: 64 + 32 + 4 = 100. 
-Portanto 144 (octal) = 100 (decimal) 
+Somando os valores: 64 + 32 + 4 = 100.  Portanto 144 (octal) = 100 (decimal) 
 
-Para converter um número decimal em hexadecimal, 
-usamos a base 16.
+---
+
+## Para converter um número decimal em hexadecimal, usamos a base 16.
 
 O processo é o seguinte:
 
@@ -123,15 +122,16 @@ hexadecimal:
 	. 14 = E
 
 	. 15 = F
+
+	---
 	
-Exemplo: 100 em decimal
+## Exemplo: 100 em decimal
 
     100÷16=6 resto 4
 
     6÷16=0 resto 6
 
-Agora juntamos os restos de baixo para cima: 64. 
-Portanto 100=64 
+Agora juntamos os restos de baixo para cima: 64. Portanto 100=64 
 
 Exemplo com letras: 30 em decimal
 
@@ -141,8 +141,9 @@ Exemplo com letras: 30 em decimal
 
 Juntando os restos: 1E Portanto 30 = 1E
 
-Para converter um número hexadecimal em decimal, 
-usamos o posicionamento dos dígitos. Cada posição
+---
+
+## Para converter um número hexadecimal em decimal, usamos o posicionamento dos dígitos. Cada posição
 corresponde auma potência de 16:
 
 	O último dígito (à direita) → 160
@@ -151,8 +152,7 @@ corresponde auma potência de 16:
 
 	Depois → 162, e assim por diante.
 	
-Se o dígito for uma letra (A–F), primeiro 
-substituímos pelovalor decimal 
+Se o dígito for uma letra (A–F), primeiro substituímos pelovalor decimal 
 correspondente (A=10, B=11, … F=15).
 
 Exemplo 1: 64
@@ -160,19 +160,18 @@ Exemplo 1: 64
 6* -> 16¹ = 96
 4* -> 16⁰ = 4 
 
-Somando: 96+4=100. Portanto, 64 em 
-hexadecimal = 100 decimal. 
+Somando: 96+4=100. Portanto, 64 em hexadecimal = 100 decimal. 
 
 Exemplo 2: 1E 
 
 1 -> 16¹ = 16 
 E -> 14* -> 16⁰ = 14
 
-Somando 16 + 14 = 30. Portanto, 1E em 
-hexadecimal = 30 decimal. 
+Somando 16 + 14 = 30. Portanto, 1E em hexadecimal = 30 decimal. 
 
-Como converter hexadecimal → binário usando o 
-intermediário decimal 
+---
+
+## Como converter hexadecimal → binário usando o intermediário decimal 
 
  1. Hexadecimal → Decimal: cada dígito hexadecimal é 
 multiplicado pela potência de 16 correspondente
@@ -201,17 +200,15 @@ Exemplo: 1E
 	
 	Lendo os restos de baixo para cima: 11110. 
     Portanto, 1E = 11110 
+
+	---
 	
-Como converter binário → hexadecimal usando o 
-intermediário decimal
+## Como converter binário → hexadecimal usando o intermediário decimal
 
  1. Binário → Decimal: cada dígito binário é multiplicado
 pela potência de 2 correspondente à posição.
 
- 2. Decimal → Hexadecimal: dividimos sucessivamente por 16 
- até o quociente ser 0, anotando os restos de baixo para cima.
- Se o resto for maior que 9, usamos a tabela hexadecimal 
- (10=A, 11=B, … 15=F).
+ 2. Decimal → Hexadecimal: dividimos sucessivamente por 16  até o quociente ser 0, anotando os restos de baixo para cima. Se o resto for maior que 9, usamos a tabela hexadecimal (10=A, 11=B, … 15=F).
  
  Exemplo: 11110
  
@@ -233,6 +230,5 @@ pela potência de 2 correspondente à posição.
 	Lendo os restos de baixo para cima: 1E. 
     Portanto 11110 = 1E 
 	
-Para converter octal ↔ binário ou octal ↔ hexadecimal, 
-podemos usar o decimal como intermediário.
+Para converter octal ↔ binário ou octal ↔ hexadecimal, podemos usar o decimal como intermediário.
  
