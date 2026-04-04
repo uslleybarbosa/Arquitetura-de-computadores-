@@ -22,8 +22,7 @@ O processador possui:
 	
 	. Clock (GHz): indica quantas operações podem ser feitas por segundo.
 	
-	. Exemplo: 3,4 GHz ≈ 3,4 bilhões de ciclos 
-	por segundo.
+	. Exemplo: 3,4 GHz ≈ 3,4 bilhões de ciclos por segundo.
 	
 É possível aumentar a frequência (overclock), mas isso pode causar instabilidade e não é recomendado sem cuidado.
 
@@ -41,8 +40,7 @@ Os barramentos fazem a comunicação entre os componentes:
 	
 	. Barramento de endereço: indica onde os dados estão na memória.
 	
-	. Barramento de controle: coordena e organiza
-	as operações.
+	. Barramento de controle: coordena e organiza as operações.
 	
 🔹 Armazenamento (Memória)
 
