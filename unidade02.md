@@ -1,13 +1,15 @@
-Unidade 02 – Fundamentos de Sistemas Computacionais
+## Unidade 02 – Fundamentos de Sistemas Computacionais
 
 Neste módulo, estudamos a estrutura básica de um computador. Ela é composta por quatro partes principais:
 
 Entrada → Processamento → Armazenamento → Saída
 
-	. Entrada: são os dados que entram no computador por meio de dispositivos (periféricos), como teclado e mouse.
-	. Saída: são as informações que saem do computador, como imagem na tela ou impressão.
+	. Entrada: são os dados que entram no computador por meio de dispositivos (periféricos), como teclado e   mouse.
+	. Saída:   são as informações que saem do computador, como imagem na tela ou impressão.
+
+---
 	
-Entre esses dois pontos (entrada e saída), temos: 
+## Entre esses dois pontos (entrada e saída), temos: 
 
 🔹 Processamento
 
@@ -24,6 +26,8 @@ O processador possui:
 Além disso, o processador possui a:
 
 	. ULA (Unidade Lógica e Aritmética): responsável pelos cálculos matemáticos e lógicos.
+
+---
 	
 🔹 Barramentos
 
@@ -57,8 +61,10 @@ Tipos:
 
 	. Armazenamento permanente.
 	. Exemplos: HD e SSD.
+
+---
 	
-Curiosidade 
+## Curiosidade 
 
 32 bits ou 64 bits se refere ao processador e ao sistema operacional, não à quantidade de RAM diretamente.
 Um sistema 32 bits normalmente consegue usar até ~4GB de RAM.
