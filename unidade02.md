@@ -61,12 +61,15 @@ Tipos:
 2. Memória cache
 
 	. Muito rápida e fica próxima ao processador.
+   
 	. Dividida em L1, L2 e L3.
+   
 	. Armazena dados mais acessados para acelerar o processamento.
 	
-3. Memória secundária
+4. Memória secundária
 
 	. Armazenamento permanente.
+   
 	. Exemplos: HD e SSD.
 
 ---
