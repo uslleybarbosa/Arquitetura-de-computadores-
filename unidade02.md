@@ -47,6 +47,7 @@ Os barramentos fazem a comunicação entre os componentes:
 Temos diferentes tipos de memória:
 
 	1. Memória primária (RAM)
+	
 	2. É temporária (volátil).
 	
 Armazena dados que estão sendo usados no momento.
