@@ -1,9 +1,11 @@
- Repositório de Arquitetura de computadores 
+ ## Repositório de Arquitetura de computadores 
 
 Este repositório é dedicado ao compartilhamento de conhecimento voltado para Arquitetura de computadores
 Aqui, reviso conteúdos, organizo materiais e disponibilizo recursos que podem ajudar estudantes e entusiastas da área.
 
-O objetivo é:
+---
+
+# O objetivo é:
 
     📖 Revisar e consolidar conceitos fundamentais.
     🛠️ Compartilhar práticas e exemplos aplicados.
