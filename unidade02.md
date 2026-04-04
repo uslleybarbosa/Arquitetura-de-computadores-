@@ -4,12 +4,9 @@ Neste módulo, estudamos a estrutura básica de um computador. Ela é composta p
 
 Entrada → Processamento → Armazenamento → Saída
 
-	. Entrada: são os dados que entram no computador 
-	por meio de dispositivos (periféricos), como t
-	eclado e   mouse.
+	. Entrada: são os dados que entram no computador por meio de dispositivos (periféricos), como teclado e  mouse.
 	
-	. Saída:   são as informações que saem do computador, 
-	como imagem na tela ou impressão.
+	. Saída:   são as informações que saem do computador,como imagem na tela ou impressão.
 
 ---
 	
@@ -17,27 +14,22 @@ Entrada → Processamento → Armazenamento → Saída
 
 🔹 Processamento
 
-O processamento é realizado pelo processador (CPU), responsável por executar cálculos 
-e processar informações.
+O processamento é realizado pelo processador (CPU), responsável por executar cálculos e processar informações.
 
 O processador possui:
 
-	. Registradores: memória interna muito rápida 
-	(curto prazo).
+	. Registradores: memória interna muito rápida (curto prazo).
 	
-	. Clock (GHz): indica quantas operações podem 
-	ser feitas por segundo.
+	. Clock (GHz): indica quantas operações podem ser feitas por segundo.
 	
 	. Exemplo: 3,4 GHz ≈ 3,4 bilhões de ciclos 
 	por segundo.
 	
-É possível aumentar a frequência (overclock), mas isso pode causar instabilidade
-e não é recomendado sem cuidado.
+É possível aumentar a frequência (overclock), mas isso pode causar instabilidade e não é recomendado sem cuidado.
 
 Além disso, o processador possui a:
 
-	. ULA (Unidade Lógica e Aritmética): responsável 
-	pelos cálculos matemáticos e lógicos.
+	. ULA (Unidade Lógica e Aritmética): responsável pelos cálculos matemáticos e lógicos.
 
 ---
 	
@@ -45,11 +37,9 @@ Além disso, o processador possui a:
 
 Os barramentos fazem a comunicação entre os componentes:
 
-	. Barramento de dados: transporta os dados entre 
-	memória e processador.
+	. Barramento de dados: transporta os dados entre memória e processador.
 	
-	. Barramento de endereço: indica onde os dados 
-	estão na memória.
+	. Barramento de endereço: indica onde os dados estão na memória.
 	
 	. Barramento de controle: coordena e organiza
 	as operações.
@@ -65,12 +55,9 @@ Armazena dados que estão sendo usados no momento.
 
 Tipos:
 
-	. SDRAM: mais antiga, envia dados uma vez 
-	por ciclo de clock.
+	. SDRAM: mais antiga, envia dados uma vez por ciclo de clock.
 	
-	. DDR: mais moderna, envia dados duas vezes 
-	por ciclo, sendo mais rápida 
-	(DDR, DDR2, DDR3, DDR4, DDR5).
+	. DDR: mais moderna, envia dados duas vezes por ciclo, sendo mais rápida  (DDR, DDR2, DDR3, DDR4, DDR5).
 	
 2. Memória cache
 
@@ -87,11 +74,8 @@ Tipos:
 	
 ## Curiosidade 
 
-32 bits ou 64 bits se refere ao processador e ao sistema operacional, não à quantidade 
-de RAM diretamente.
+32 bits ou 64 bits se refere ao processador e ao sistema operacional, não à quantidade de RAM diretamente.
 
-Um sistema 32 bits normalmente consegue usar
-até ~4GB de RAM.
+Um sistema 32 bits normalmente consegue usar até ~4GB de RAM.
 
-Um sistema 64 bits pode usar muito mais memória (
-8GB, 16GB, 32GB, etc).
+Um sistema 64 bits pode usar muito mais memória (8GB, 16GB, 32GB, etc).
