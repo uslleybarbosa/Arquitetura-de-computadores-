@@ -4,7 +4,7 @@
 # a) 100
 
 
-`Resolução:  100 / 2 = 50 → resto = 0
+Resolução:  100 / 2 = 50 → resto = 0
 
 50 / 2 =  25 → resto = 0
 
@@ -19,7 +19,7 @@
 1 / 2 = 0 → resto = 1 `
 
 
-# Resposta: 100 decimal e igual a 1100100 binario
+==Resposta: 100 decimal e igual a 1100100 binario==
 
 ---
 
