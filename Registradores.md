@@ -4,17 +4,23 @@ Ao estudar arquitetura de computadores, é essencial compreender os registradore
 
 Em um processador de 32 bits, cada registrador possui 32 bits de largura. Isso permite acessar partes específicas:
 
+``` 
+
   . AX → 16 bits menos significativos de EAX.
 
   . AH → 8 bits mais altos dentro de AX.
 
   . AL → 8 bits mais baixos dentro de AX.
 
+``` 
+
   ---
   
 ## 🔹 Tipos de registradores
 
 Propósito geral (movimentação de dados):
+
+```  
 
     EAX → operações aritméticas.
 
@@ -23,26 +29,38 @@ Propósito geral (movimentação de dados):
     ECX → contador (loops, shifts).
 
     EDX → operações de multiplicação/divisão.
+
+```  
     
 Ponteiros (controle de fluxo e pilha):
+
+```  
 
     EIP → aponta para a próxima instrução.
 
     ESP → topo da pilha.
 
     EBP → referência para variáveis locais.
+
+```  
     
 Índice (operações com arrays e strings):
+
+```  
 
     ESI → origem.
 
     EDI → destino.
+
+``` 
 
     ---
     
 ## 🔹 Flags (registradores de controle)
 
 As flags indicam o resultado de operações aritméticas e lógicas:
+
+``` 
 
     Overflow Flag (OF) → indica quando o resultado excede o limite de representação.
 
@@ -52,11 +70,15 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
     Auxiliary Flag (AF) → usada em operações de ajuste entre nibbles (4 bits).
 
-    Parity Flag (PF) → ativa se o número de bits 1 no resultado for par. 
+    Parity Flag (PF) → ativa se o número de bits 1 no resultado for par.
+
+``` 
 
     ---
     
 ## 🔹 Instruções básicas em Assembly
+
+``` 
 
     Movimentação
 
@@ -66,9 +88,13 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
         POP EBX → retira o valor do topo da pilha e coloca em EBX.
 
+``` 
+
         ---
         
 ## Aritmética
+
+``` 
 
     ADD EAX, 5 → soma 5 a EAX.
 
@@ -78,9 +104,13 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
     IDIV EAX, EDX → divide EAX por EDX.
 
+``` 
+
     ---
     
 ## Controle de fluxo
+
+```  
 
     JMP endereço → salto incondicional.
 
@@ -89,6 +119,8 @@ As flags indicam o resultado de operações aritméticas e lógicas:
     JNE endereço → salto se resultado for diferente.
 
     CMP EAX, EBX → compara EAX com EBX.
+
+```  
 
     ---
     
