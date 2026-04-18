@@ -54,7 +54,7 @@ Ponteiros (controle de fluxo e pilha):
 
 ``` 
 
-    ---
+  ---
     
 ## 🔹 Flags (registradores de controle)
 
