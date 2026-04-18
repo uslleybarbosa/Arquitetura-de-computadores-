@@ -12,9 +12,9 @@ Em um processador de 32 bits, cada registrador possui 32 bits de largura. Isso p
 
   . AL → 8 bits mais baixos dentro de AX.
 
-``` 
+```
 
-  ---
+--- 
   
 ## 🔹 Tipos de registradores
 
@@ -74,7 +74,7 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
 ``` 
 
-    ---
+ ---
     
 ## 🔹 Instruções básicas em Assembly
 
@@ -90,7 +90,7 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
 ``` 
 
-        ---
+  ---
         
 ## Aritmética
 
@@ -106,7 +106,7 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
 ``` 
 
-    ---
+   ---
     
 ## Controle de fluxo
 
@@ -122,6 +122,6 @@ As flags indicam o resultado de operações aritméticas e lógicas:
 
 ```  
 
-    ---
+   ---
     
 Dominar os registradores, as flags e as instruções básicas é o primeiro passo para compreender a lógica do assembly. Esse conhecimento é fundamental para manipular dados diretamente no processador e entender como programas funcionam em baixo nível.
